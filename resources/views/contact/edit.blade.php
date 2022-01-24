@@ -16,7 +16,7 @@
 
                     <form
                         method="POST"
-                        action=""
+                        action="{{route('contact.update',['id' => $contact->id])}}"
                     >
                     @csrf
 
